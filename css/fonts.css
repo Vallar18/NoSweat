@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+    url('../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+    url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+    url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open-Sans";
+    src: url('../fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "OpenSans-Extrabold";
+    src: url('../fonts/OpenSans-Extrabold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Brushstrike-trial";
+    src: url('../fonts/Brushstrike-trial.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bedas-neue";
+    src: url('../fonts/Bedas-neue.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Chunkfive";
+    src: url('../fonts/Chunkfive.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
