@@ -1,23 +1,644 @@
 /*==========  Desktop First Method  ==========*/
 
+@media only screen and (max-width : 1760px) {
+    .header-main{
+        height: 60em;
+    }
+    .logos-wrapp{
+        margin-left: 2%;
+        width: 33%;
+    }
+    .logo-left, .logo-right{
+        width: 50%;
+    }
+    .logo-left img{
+        width: 100%;
+    }
+    .logo-right img {
+        width: 80%;
+    }
+    .header-slider {
+        width: 50%;
+        height: 28em;
+    }
+
+    .main-container{
+        max-width: 1600px;
+    }
+    .gradient{
+        font-size:45px;
+    }
+    .main-content-item p{
+        font-size: 23px;
+    }
+
+    .main-video-container {
+        max-width: 1600px;
+    }
+    .main-video-content {
+        margin-left: 30px;
+    }
+    .video-item iframe {
+        padding: 127px 10px 0 0;
+    }
+
+    .main-shop{
+        width: 90%;
+    }
+    .shop-item-top{
+        height: 6em;
+    }
+    .shop-title p{
+        font-size:50px;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    .main-container{
+        max-width:1460px;
+    }
+    .gradient{
+        text-align: center;
+        font-size:40px;
+    }
+    .main-container .gradient{
+        margin-left:20px;
+    }
+    .main-content-item{
+        width:max-content;
+    }
+    .main-content-item p {
+        font-size: 20px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (max-width : 1460px) {
+    .message{
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .navigation-wrapp .navigation li a {
+        font-size: 18px;
+    }
+    .cart-wrapp a{
+        font-size: 35px
+    }
+    .header-main {
+        height: 55em;
+    }
+    .header-content h1{
+        font-size: 120px;
+        text-align: center;
+        margin: 0;
+    }
+    .header-content h3{
+        font-size: 45px;
+        text-align: center;
+    }
+    .header-slider {
+        height: 25em;
+    }
+    .main-content {
+        margin-right: 10px;
+    }
+    .main-container {
+        max-width: 1200px;
+        height: 10em;
+    }
+
+    .main-black-container{
+        height: 11em;
+    }
+    .main-black-block h3{
+        font-size: 40px;
+    }
+    .main-content-item p {
+        font-size: 16px;
+    }
+
+    .shop-item-top {
+        height: 4em;
+    }
+    .shop-title p {
+        font-size: 45px;
+    }
+
+    .specifications h3{
+        font-size: 50px;
+    }
+    .specifications p{
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .specifications .play{
+        margin-top: 44px;
+        width: 124px;
+        height: 124px;
+    }
+    .play .ion-ios-play-outline {
+        font-size: 60px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .header-main {
+        height: 45em;
+    }
+    .header-top-container{
+        height: 5em;
+    }
+    .header-slider {
+        height: 20em;
+    }
+
+    .main-black-block img{
+        width: 25%;
+    }
+    .main-black-block h3 {
+        font-size: 30px;
+    }
+
+    .slider h3 {
+        margin: 110px 0 90px 0;
+    }
+    .slider-circle {
+        margin: 120px 0 140px 0;
+    }
+
+    .specifications-container {
+        height: 50em;
+    }
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    
+    .message {
+        font-size: 14px;
+    }
+
+    .cart-wrapp a {
+        font-size: 30px;
+    }
+    .header-main {
+        height: 40em;
+    }
+    .navigation-wrapp .navigation li a {
+        font-size: 14px;
+    }
+    .main-container {
+        max-width: 90%;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-container .gradient {
+        margin:0;
+    }
+    .main-content {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin:0;
+    }
+    .header-content h1 {
+        height: 110px;
+        font-size: 100px;
+    }
+    .header-content h3 {
+        font-size: 35px;
+    }
+    .header-slider {
+        height: 17em;
+    }
+
+    .main-black-container {
+        height: 9em;
+    }
+    .main-black-block h3 {
+        font-size: 20px;
+    }
+
+    .shop-item-top {
+        height: 3em;
+    }
+    .shop-title p {
+        font-size: 40px;
+    }
+    .shop-title-bottom{
+        font-size: 22px;
+    }
+    .slider-item .item1{
+        width: 110px;
+    }
+    .slider-item .item2, .slider-item .item3,
+    .slider-item .item4, .slider-item .item5 {
+        width: 140px;
+    }
+    .main-sport{
+        height:auto;
+    }
+    .main-sport-container{
+        max-width: 90%;
+        padding: 13% 0;
+    }
+    .main-sport-img img{
+        width: 30%;
+        height: 30%;
+    }
+    .main-sport-img {
+        justify-content: space-around;
+    }
+    .main-sport-img-4{
+        padding-top: 20px;
+    }
+
+    .slider-item {
+        justify-content: space-around;
+        width: 90%;
+    }
+    .item-7, .item-8{
+        display: none;
+    }
+
+    .specifications-container{
+        height: 40em;
+    }
+    .specifications h3 {
+        font-size: 35px;
+    }
+    .specifications p {
+        font-size: 15px;
+        line-height: 0;
+        margin-top: -10px;
+    }
+    .specifications .play{
+        width: 104px;
+        height: 104px;
+    }
+    .play .ion-ios-play-outline {
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .footer{
+        height: 24em;
+    }
+    .footer-container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer-content {
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-content h5{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .footer-p p {
+        font-size: 12px;
+    }
+    .inbox .text {
+        width: 200px;
+    }
+    .footer-menu-nav a {
+        font-size: 12px;
+    }
+    .contact-information-title {
+        font-size: 12px;
+    }
+    .location h6, .phone h6, .email h6 {
+        font-size: 12px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    
+    .message {
+        font-size: 12px;
+    }
+
+    .logos-wrapp{
+        width: 25%;
+        margin: 0;
+    }
+    .logo-right{
+        display: none;
+    }
+    .logo-left{
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .header-main {
+        height: 32em;
+    }
+    .header-top-container {
+        height: 4em;
+        max-width:90%;
+    }
+    .navigation-wrapp .navigation li a {
+        font-size: 12px;
+    }
+    .header-content h1 {
+        height: 95px;
+        font-size: 80px;
+    }
+    .header-content h3 {
+        font-size: 25px;
+    }
+    .header-slider {
+        height: 14em;
+    }
+
+    .gradient {
+        margin: 0;
+        font-size: 35px;
+    }
+    .main-content-item {
+        flex-direction: column;
+    }
+    .main-content-item p {
+        padding: 10px 10px 5px 10px;
+        font-size: 12px;
+    }
+
+    .slider-container{
+        max-width: 90%;
+    }
+    .slider h3 {
+        margin: 80px 0 60px 0;
+    }
+    .slider-item {
+        padding: 0 20px;
+    }
+    .slider-item .item2 {
+        margin: 0 10px 0 10px;
+    }
+    .slider-item .item4 {
+        margin: 0 10px 0 10px;
+    }
+    .slider-item .item1 {
+        width: 20%;
+    }
+    .slider-item .item2, .slider-item .item3, .slider-item .item4, .slider-item .item5 {
+        width: 20%;
+    }
+    .slider-circle {
+        margin: 80px 0 100px 0;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+    .specifications-container {
+        height: 35em;
+    }
+    .specifications .play {
+        width: 84px;
+        height: 84px;
+        margin-top: 40px;
+    }
+
+    .footer {
+        height: 30em;
+    }
+    .footer-container {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .footer-content {
+        padding-top: 30px;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .footer-subscribe{
+        width: 50%;
+    }
+    .contact-information{
+        width: 100%;
+    }
+    .contact-information-title {
+        text-align: center;
+    }
+    .contact-information br{
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+    .message {
+        font-size: 10px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+
+    .header-top-container {
+        height: 3em;
+        max-width: 90%;
+    }
+    .navigation-wrapp .navigation li a {
+        font-size: 10px;
+    }
+    .cart-wrapp a {
+        font-size: 23px;
+    }
+    .cart-wrapp {
+        margin-right: 0;
+    }
+    .header-content{
+        margin: 0;
+    }
+    .header-content h1 {
+        height: 85px;
+        font-size: 60px;
+    }
+    .header-content h3 {
+        font-size: 16px;
+    }
+    .header-main {
+        height: 28em;
+    }
+    .header-slider {
+        height: 12em;
+    }
+
+    .main-black-container {
+        height: 7em;
+        max-width: 90%;
+    }
+    .main-black-block img {
+        width: 18%;
+    }
+    .main-black-block h3 {
+        font-size: 15px;
+    }
+
+    .slider-circle {
+        margin: 60px 0 80px 0;
+    }
+
+    .main-shop {
+        width: 90%;
+        flex-direction: column;
+    }
+    .shop-item {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .shop-item-top {
+        height: 7em;
+    }
+    .shop-title p {
+        font-size: 80px;
+    }
+    .shop-title-bottom {
+        font-size: 35px;
+    }
+
+
+    .specifications-container {
+        max-width: 90%;
+        height: 25em;
+    }
+    .specifications h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .specifications p {
+        font-size: 13px;
+        margin-top: -15px;
+    }
+    .specifications .play {
+         width: 64px;
+         height: 64px;
+         margin-top: 30px;
+     }
+    .play .ion-ios-play-outline {
+        font-size: 35px;
+    }
 }
 
+
+@media  only screen and (max-width: 600px){
+    .mobile-menu{
+        display: block;
+        font-size: 25px;
+        order: 1
+    }
+    .navigation-wrapp{
+        display: none;
+    }
+    .logos-wrapp{
+        order:2;
+    }
+    .cart-wrapp{
+        order: 3;
+    }
+    .main-container{
+        height: 25em;
+        padding:20PX 0 ;
+    }
+    .gradient {
+        margin: 0;
+        font-size: 25px;
+    }
+    .main-content{
+        flex-direction:column;
+    }
+    .main-content-item {
+        flex-direction: row;
+        width: 50%;
+        margin: 5px;
+    }
+    .main-content-item img{
+        width: 20%;
+    }
+    .main-content-item br{
+        display: none;
+    }
+    .main-black-container {
+        height: 15em;
+        max-width: 90%;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .main-black-block {
+        width: 40%;
+    }
+    .main-black-block img {
+        width: 18%;
+    }
+
+    .main-sport-container {
+        padding: 9% 0 15% 0;
+    }
+    .instagram img{
+        width: 30px;
+    }
+    .main-sport-title {
+        font-size: 26px;
+    }
+    .main-sport-img img {
+        width: 40%;
+        height: 30%;
+    }
+    .main-sport-img-3{
+        padding-top: 20px;
+    }
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+    .message {
+        font-size: 8px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    .message .message-close {
+        right: 15px;
+        font-size: 13px;
+    }
+
+
+    .logos-wrapp {
+        width: 130px;
+    }
+    .header-main {
+        height: 25em;
+    }
+    .header-content h1 {
+        height: 90px;
+        font-size: 40px;
+    }
+    .header-content h3 {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 5px;
+    }
+    .header-slider {
+        height: 11em;
+    }
+
+
+    .circle {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .specifications p {
+        font-size: 13px;
+        margin-top: -15px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
 }
 
 /* Custom, iPhone Retina */

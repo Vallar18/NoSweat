@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/fontawesome/font-awesome.min.css"/>
+    <link rel="stylesheet" href="fonts/ionicons-2.0.1/css/ionicons.min.css"/>
+    <script src="/js/common.js"></script>
+
 </head>
 <body>
 <div class="message">
@@ -25,7 +27,9 @@
                         <img src="img/dark-ameriacnmade.png"/>
                     </div>
                 </div>
-
+                <div class="mobile-menu">
+                    <i class="ion-navicon-round" aria-hidden="true"></i>
+                </div>
                 <div class="navigation-wrapp">
                     <ul class="navigation">
                         <li><a href="">Home</a></li>
@@ -36,7 +40,7 @@
                 </div>
                 <div class="cart-wrapp">
                     <a href="">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <i class="ion-ios-cart" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -53,7 +57,7 @@
     </header>
     <section class="main">
         <div class="main-container">
-                <h3>tech features</h3>
+                <h3 class="gradient">tech features</h3>
             <div class="main-content">
                 <div class="main-content-item">
                     <img src="img/main-img1.png" alt="">
@@ -100,7 +104,7 @@
     <section class="main-video">
         <div class="main-video-container">
             <div class="main-video-content">
-                <h3>game changer</h3>
+                <h3 class="gradient">game changer</h3>
                 <h4>SWEAT PROTECTION. DELIVERED.</h4>
                 <p>Keeps sweat out of your eyes<br>
                     Reduces fogging<br>
@@ -108,28 +112,27 @@
                     Thin, soft and lightweight<br>
                     Helps with acne & skin irritation</p>
                 <div>
-                    <p>
                         Starting at only<br>
                         $4.99 for a 3-pack
-                    </p>
                 </div>
                 <a href="#" class="my-btn">Shop NOW</a>
                 <img src="img/dark-ameriacnmade.png"/>
             </div>
             <div class="video-item">
-                <img src="img/main-video-item.png">
+                <iframe src="https://player.vimeo.com/video/169599296?color=949494&title=0&byline=0&portrait=0" width="967" height="543" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
-    <div id="slider" class="slider">
+    <div class="slider">
         <div class="slider-container">
-            <h3>used by the pros</h3>
+            <h3 class="gradient">used by the pros</h3>
             <div class="slider-item">
-                <img src="img/slider-item1.png" alt="">
+                <img src="img/slider-item1.png" alt="" class="item1">
                 <img src="img/slider-item2.png" alt="" class="item2">
-                <img src="img/slider-item3.png" alt="">
+                <img src="img/slider-item3.png" alt="" class="item3">
                 <img src="img/slider-item4.png" alt="" class="item4">
-                <img src="img/slider-item5.png" alt="">
+                <img src="img/slider-item5.png" alt="" class="item5">
             </div>
             <div class="slider-circle">
                 <a href="#"><div class="circle left"></div></a>
@@ -149,28 +152,39 @@
             <div class="main-sport-img">
                 <img src="img/main-sport-moto.png" alt="">
                 <img src="img/main-sport2.png" alt="">
-                <img src="img/main-sport-girl(3).png" alt="">
-                <img src="img/main-sport4.png" alt="">
-                <img src="img/main-sport-golf(5).png" alt="">
-                <img src="img/main-sport6.png" alt="">
-                <img src="img/main-sport7.png" alt="">
-                <img src="img/main-sport8.png" alt="">
+                <img src="img/main-sport-girl(3).png" class="main-sport-img-3" alt="">
+                <img src="img/main-sport4.png" class="main-sport-img-4"  alt="">
+                <img src="img/main-sport-golf(5).png" class="main-sport-img-2" alt="">
+                <img src="img/main-sport6.png" class="main-sport-img-2" alt="">
+                <img src="img/main-sport7.png" class="main-sport-img-2 item-7" alt="">
+                <img src="img/main-sport8.png" class="main-sport-img-2 item-8" alt="">
             </div>
         </div>
     </section>
     <section class="main-shop">
         <div class="shop-item">
+                <div class="shop-item-top">
+                    <img src="img/shop-item-top-left.png" alt="" class="shop-item-top-left">
+                    <img src="img/shop-item-top-right.png" alt="">
+                </div>
+                <img class="shop-item-center" src="img/main-sport-golf(5).png" alt="">
+                <div class="shop-title">
+                    <p>Hat liners</p>
+                    <button class="shop-title-bottom">
+                        buy now
+                    </button>
+                </div>
+            </div>
+        <div class="shop-item">
             <div class="shop-item-top">
                 <img src="img/shop-item-top-left.png" alt="" class="shop-item-top-left">
                 <img src="img/shop-item-top-right.png" alt="">
             </div>
-            <div class="shop-item-img">
-                <img src="img/main-shop-golf.png" alt="">
-                <div class="shop-title">
-                    <p>Hat liners</p>
-                    <div class="shop-title-bottom">
-                        buy now
-                    </div>
+            <img class="shop-item-center" src="img/main-sport-golf(5).png" alt="">
+            <div class="shop-title">
+                <p>Hat liners</p>
+                <div class="shop-title-bottom">
+                    buy now
                 </div>
             </div>
         </div>
@@ -179,28 +193,11 @@
                 <img src="img/shop-item-top-left.png" alt="" class="shop-item-top-left">
                 <img src="img/shop-item-top-right.png" alt="">
             </div>
-            <div class="shop-item-img">
-                <img src="img/main-shop-golf.png" alt="">
-                <div class="shop-title">
-                    <p>Hat liners</p>
-                    <div class="shop-title-bottom">
-                        buy now
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shop-item">
-            <div class="shop-item-top">
-                <img src="img/shop-item-top-left.png" alt="" class="shop-item-top-left">
-                <img src="img/shop-item-top-right.png" alt="">
-            </div>
-            <div class="shop-item-img">
-                <img src="img/main-shop-golf.png" alt="">
-                <div class="shop-title">
-                    <p>Hat liners</p>
-                    <div class="shop-title-bottom">
-                        buy now
-                    </div>
+            <img class="shop-item-center" src="img/main-sport-golf(5).png" alt="">
+            <div class="shop-title">
+                <p>Hat liners</p>
+                <div class="shop-title-bottom">
+                    buy now
                 </div>
             </div>
         </div>
@@ -209,22 +206,20 @@
         <div class="specifications-container">
             <h3>SWEAT PROTECTION. DELIVERED.</h3>
             <p>click play to watch the video.</p>
-            <div class="play">
-                <div class="play-in">
-
-                </div>
-            </div>
+            <a href="" class="play">
+                <div class="ion-ios-play-outline"></div>
+            </a>
         </div>
     </section>
     <div id="slider" class="slider">
         <div class="slider-container">
-            <h3>we’ve been featured in</h3>
+            <h3 class="gradient">we’ve been featured in</h3>
             <div class="slider-item">
-                <img src="img/slider-item1.png" alt="">
+                <img src="img/slider-item1.png" alt="" class="item1">
                 <img src="img/slider-item2.png" alt="" class="item2">
-                <img src="img/slider-item3.png" alt="">
+                <img src="img/slider-item3.png" alt="" class="item3">
                 <img src="img/slider-item4.png" alt="" class="item4">
-                <img src="img/slider-item5.png" alt="">
+                <img src="img/slider-item5.png" alt="" class="item5">
             </div>
             <div class="slider-circle">
                 <a href="#"><div class="circle left"></div></a>
@@ -233,11 +228,63 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer-subscribe">
-            <h5>Stay in the loop</h5>
-            <p>Get discounts straight to your inbox.</p>
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-subscribe footer-p">
+                    <h5>Stay in the loop</h5>
+                    <p class="item-p">Get discounts straight to your inbox.</p>
+                     <div class="inbox">
+                         <input type="text" class="text">
+                         <button type="submit" class="submit">
+                             <i class="ion-paper-airplane"></i>
+                         </button>
+                     </div>
+                </div>
+                <div class="footer-menu">
+                     <ul class="footer-menu-nav">
+                         <li><a href="">About us</a></li>
+                         <li><a href="">Become an Affilate</a></li>
+                         <li><a href="">Retail Sales Inquries</a></li>
+                         <li><a href="">Blog</a></li>
+                         <li><a href="">Terms & Private Policy</a></li>
+                     </ul>
+                </div>
+                <div class="contact-information footer-p">
+                    <h6 class="contact-information-title">Contact Information</h6>
+                    <p>If you have any questions about our products,
+                        or you want to follow up on your existing order <br>status, please contact us via the following:</p>
+                    <div class="contact-block">
+                        <div class=" location footer-p">
+                            <h6>location</h6>
+                            <p>5421 Feltl Rd, Suite 160, Minnetonka, MN 55343 </p>
+                        </div>
+                        <div class="phone footer-p">
+                            <h6>phone</h6>
+                            <p>1 (615) 697-9328</p>
+                        </div>
+                        <div class="email footer-p">
+                            <h6>email</h6>
+                            <p>Info@NoSweatCo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom footer-p">
+                <p>©2016 NoSweat. All Rights Reserved. - Patented. Other Patents Pending.
+                </p>
+                <div class="social-block">
+                    <div class="social-block-icons">
+                        <a href=""><span class="ion-social-facebook icons"></span></a>
+                    </div>
+                    <div class="social-block-icons">
+                        <a href=""><span class="ion-social-instagram icons"></span></a>
+                    </div>
+                    <div class="social-block-icons">
+                        <a href=""><span class="ion-social-twitter icons"></span></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
