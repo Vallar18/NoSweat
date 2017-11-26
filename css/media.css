@@ -292,6 +292,10 @@
         display: none;
     }
 
+    .shop-title-bottom {
+        margin-top: 5px;
+    }
+
     .specifications-container{
         height: 40em;
     }
@@ -313,7 +317,7 @@
     }
 
     .footer{
-        height: 24em;
+        height: max-content;
     }
     .footer-container {
         max-width: 95%;
@@ -330,9 +334,6 @@
     }
     .footer-p p {
         font-size: 12px;
-    }
-    .inbox .text {
-        width: 200px;
     }
     .footer-menu-nav a {
         font-size: 12px;
@@ -421,6 +422,10 @@
         font-size: 12px;
     }
 
+    .shop-title p {
+        font-size: 30px;
+    }
+
     .slider-container{
         max-width: 90%;
     }
@@ -459,9 +464,6 @@
         margin-top: 40px;
     }
 
-    .footer {
-        height: 30em;
-    }
     .footer-container {
         max-width: 80%;
         margin: 0 auto;
@@ -475,7 +477,7 @@
         width: 55%;
     }
     .footer-menu{
-        width: 35%;
+        width: 25%;
     }
     .contact-information{
         width: 100%;
@@ -562,18 +564,20 @@
     }
 
     .main-shop {
-        width: 90%;
+        width: 80%;
         flex-direction: column;
+        margin: 0 auto 40px auto;
     }
     .shop-item {
         width: 100%;
         margin-top: 40px;
     }
     .shop-title p {
-        font-size: 80px;
+        font-size: 65px;
     }
     .shop-title-bottom {
-        font-size: 35px;
+        margin-top: 25px;
+        font-size:35px;
     }
 
 
@@ -598,12 +602,9 @@
         font-size: 35px;
     }
 
-    .footer {
-        height: 37em;
-    }.footer-container {
+    .footer-container {
          max-width: 90%;
      }
-
     .footer-subscribe{
         padding: 0;
     }
@@ -631,6 +632,24 @@
     }
     .navigation-wrapp{
         display: none;
+    }
+    .navigation-wrapp.active {
+        display: block;
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        width: 100%;
+        left: 0;
+    }
+    .navigation-wrapp.active .navigation {
+        flex-direction: column;
+    }
+    .navigation-wrapp.active .navigation li a {
+        margin: 0;
+        color: #1D5291;
+    }
+    .navigation-wrapp .navigation li:not(:last-of-type) {
+        margin-right: 0;
     }
     .logos-wrapp{
         order:2;
@@ -689,6 +708,17 @@
     .main-sport-img-3{
         padding-top: 20px;
     }
+
+    .shop-title p {
+        font-size: 55px;
+    }
+    .shop-title-bottom {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .shop-item-top {
+        height: 5em;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -722,6 +752,20 @@
         height: 11em;
     }
 
+    .main-shop{
+        width: 90%;
+    }
+
+    .shop-title p {
+        font-size: 40px;
+    }
+    .shop-title-bottom {
+        margin-top: 0;
+        font-size: 22px;
+    }
+    .shop-item-top {
+        height: 4em;
+    }
 
     .circle {
         width: 12px;
@@ -734,6 +778,17 @@
         margin-top: -15px;
         text-align: center;
         letter-spacing: 1px;
+    }
+
+    .footer-subscribe{
+        width: 100%;
+    }
+    .footer-menu {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .footer-bottom {
+        margin: 15px 0;
     }
 }
 

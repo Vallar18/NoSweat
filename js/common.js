@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.mobile-menu').on('click', function(){
-        $('.navigation-wrapp').toggle("active");
+        $('.navigation-wrapp').toggleClass("active");
     });
 
 });
